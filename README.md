@@ -1,5 +1,14 @@
 # flask
 
+Install pip
+`sudo apt istall python3-pip`
+
+Install flask
+`pip install flask`
+
+Install DB manager
+`pip install sqlalchemy`
+
 # SQLAlchemy
 ```
 from sqlalchemy import create_engine
