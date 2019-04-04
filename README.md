@@ -1,7 +1,7 @@
 # flask
 
 Install pip
-`sudo apt istall python3-pip`
+`sudo apt install python3-pip`
 
 Install flask
 `pip install flask`

@@ -1,7 +1,11 @@
-from flask import Flask, render_template, request, redirect, url_for, jsonify, flash
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
 from database_setup import Base, Restaurant, MenuItem
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy import create_engine
+from flask import Flask, render_template, request, redirect, url_for, jsonify, flash
+
+import sys
+sys.path.append('/var/www/html/flask')
+
 
 app = Flask(__name__)
 

@@ -39,6 +39,7 @@ class MenuItem(Base):
         }
 
 
+sys.path.append('/var/www/html/flask')
 engine = create_engine('sqlite:///restaurantmenu.db')
 
 
